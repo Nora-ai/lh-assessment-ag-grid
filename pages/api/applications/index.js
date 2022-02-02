@@ -1,7 +1,7 @@
 import dbConnect from '../../../utils/dbConnect'
 import Application from '../../../models/Application'
-//import Cohort from '../../../models/Cohort'
-//import Product from '../../../models/Product'
+// import Cohort from '../../../models/Cohort'
+// import Product from '../../../models/Product'
 
 dbConnect();
 
