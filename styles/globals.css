@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
 }
 
 a {
@@ -13,4 +15,25 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.nav-button {
+  margin-right: 100px;
+  height: 30px;
+  border: none;
+  background-image: linear-gradient(129deg, #faacb9, #fde4b5 22%, #cfe7d4 50%, #7cdfeb 89%, #a5c0d5);
+  font-family: 'Space Mono', monospace;
+  color: #161616;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 4px 30px;
+  border-radius: 1px;
+  box-shadow: -5px 5px black;
+
 }
