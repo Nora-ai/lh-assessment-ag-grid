@@ -7,7 +7,7 @@ import { useRouter } from 'next/router'
 import "ag-grid-community/dist/styles/ag-grid.css";
 import "ag-grid-community/dist/styles/ag-theme-balham-dark.css";
 
-const url = "http://localhost:3000/api/applications";
+const url = "https://lh-assessment.herokuapp.com/api/applications";
 
 export const getStaticProps = async () => {
   const res = await fetch(url);
