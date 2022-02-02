@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { AgGridColumn, AgGridReact } from "ag-grid-react";
-import FormDialog from "./components/modalCreate";
-import FormUpdate from "./components/modalUpdate";
+import FormDialog from "../components/modalCreate";
+import FormUpdate from "../components/modalUpdate";
 import { useRouter } from 'next/router'
 
 import "ag-grid-community/dist/styles/ag-grid.css";
